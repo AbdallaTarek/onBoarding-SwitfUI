@@ -21,7 +21,7 @@ struct onBoardingItem: View {
                 .cornerRadius(20)
                 .padding(24)
 
-            VStack(spacing: 16) {
+            VStack(alignment: .center, spacing: 16) {
                 Text(item.title)
                     .font(.system(size: 27, weight: .bold))
                     .foregroundColor(AppColors.shared.mainFontColor)
@@ -30,6 +30,7 @@ struct onBoardingItem: View {
                     .font(.system(size: 14, weight: .light))
                     .foregroundColor(AppColors.shared.mainFontColor)
             }
+            .multilineTextAlignment(.center)
 
             if isLast {
                 MainButton(title: "LOGIN NOW")
