@@ -8,17 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		4D10A43C29C7039900418527 /* SwiftUI_onBoardingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10A43B29C7039900418527 /* SwiftUI_onBoardingApp.swift */; };
-		4D10A43E29C7039900418527 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10A43D29C7039900418527 /* ContentView.swift */; };
+		4D10A43E29C7039900418527 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10A43D29C7039900418527 /* SplashView.swift */; };
 		4D10A44029C7039B00418527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D10A43F29C7039B00418527 /* Assets.xcassets */; };
 		4D10A44329C7039B00418527 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D10A44229C7039B00418527 /* Preview Assets.xcassets */; };
+		4D10A44B29C7085000418527 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4D10A44A29C7085000418527 /* Lottie */; };
+		4D10A45129C70BF400418527 /* LottieView+UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10A45029C70BF400418527 /* LottieView+UIViewRepresentable.swift */; };
+		4D10A45629C710E000418527 /* 92320-splash.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D10A45529C710E000418527 /* 92320-splash.json */; };
+		4D10A45829C7110C00418527 /* onBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10A45729C7110C00418527 /* onBoardingView.swift */; };
+		4D10A45B29C7151A00418527 /* onBoardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10A45A29C7151A00418527 /* onBoardingItem.swift */; };
+		4D10A45E29C7267900418527 /* onBoardingItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10A45D29C7267900418527 /* onBoardingItemModel.swift */; };
+		4D10A46429C7281100418527 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10A46229C7281100418527 /* Colors.swift */; };
+		4D10A46729C729F000418527 /* onBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10A46629C729F000418527 /* onBoardingViewModel.swift */; };
+		4D10A46B29C7351100418527 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10A46A29C7351100418527 /* MainButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D10A43829C7039900418527 /* SwiftUI onBoarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI onBoarding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D10A43B29C7039900418527 /* SwiftUI_onBoardingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_onBoardingApp.swift; sourceTree = "<group>"; };
-		4D10A43D29C7039900418527 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D10A43D29C7039900418527 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		4D10A43F29C7039B00418527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D10A44229C7039B00418527 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D10A45029C70BF400418527 /* LottieView+UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LottieView+UIViewRepresentable.swift"; sourceTree = "<group>"; };
+		4D10A45529C710E000418527 /* 92320-splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "92320-splash.json"; sourceTree = "<group>"; };
+		4D10A45729C7110C00418527 /* onBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardingView.swift; sourceTree = "<group>"; };
+		4D10A45A29C7151A00418527 /* onBoardingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardingItem.swift; sourceTree = "<group>"; };
+		4D10A45D29C7267900418527 /* onBoardingItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardingItemModel.swift; sourceTree = "<group>"; };
+		4D10A46229C7281100418527 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		4D10A46629C729F000418527 /* onBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardingViewModel.swift; sourceTree = "<group>"; };
+		4D10A46A29C7351100418527 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D10A44B29C7085000418527 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +70,11 @@
 			isa = PBXGroup;
 			children = (
 				4D10A43B29C7039900418527 /* SwiftUI_onBoardingApp.swift */,
-				4D10A43D29C7039900418527 /* ContentView.swift */,
-				4D10A43F29C7039B00418527 /* Assets.xcassets */,
+				4D10A46829C734FB00418527 /* ReusableViews */,
+				4D10A45229C70FAC00418527 /* Modules */,
+				4D10A44F29C70BEB00418527 /* Extensions */,
+				4D10A46029C7281100418527 /* Theme */,
+				4D10A44E29C709B200418527 /* Resources */,
 				4D10A44129C7039B00418527 /* Preview Content */,
 			);
 			path = "SwiftUI onBoarding";
@@ -65,6 +86,67 @@
 				4D10A44229C7039B00418527 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D10A44E29C709B200418527 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D10A45529C710E000418527 /* 92320-splash.json */,
+				4D10A43F29C7039B00418527 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4D10A44F29C70BEB00418527 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D10A45029C70BF400418527 /* LottieView+UIViewRepresentable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4D10A45229C70FAC00418527 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4D10A45329C70FCB00418527 /* Splash */,
+				4D10A45429C70FD800418527 /* onBoarding */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4D10A45329C70FCB00418527 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				4D10A43D29C7039900418527 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		4D10A45429C70FD800418527 /* onBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				4D10A45D29C7267900418527 /* onBoardingItemModel.swift */,
+				4D10A45729C7110C00418527 /* onBoardingView.swift */,
+				4D10A45A29C7151A00418527 /* onBoardingItem.swift */,
+				4D10A46629C729F000418527 /* onBoardingViewModel.swift */,
+			);
+			path = onBoarding;
+			sourceTree = "<group>";
+		};
+		4D10A46029C7281100418527 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				4D10A46229C7281100418527 /* Colors.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		4D10A46829C734FB00418527 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				4D10A46A29C7351100418527 /* MainButton.swift */,
+			);
+			path = ReusableViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +165,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI onBoarding";
+			packageProductDependencies = (
+				4D10A44A29C7085000418527 /* Lottie */,
+			);
 			productName = "SwiftUI onBoarding";
 			productReference = 4D10A43829C7039900418527 /* SwiftUI onBoarding.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +196,9 @@
 				Base,
 			);
 			mainGroup = 4D10A42F29C7039900418527;
+			packageReferences = (
+				4D10A44929C7084F00418527 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 4D10A43929C7039900418527 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D10A44329C7039B00418527 /* Preview Assets.xcassets in Resources */,
+				4D10A45629C710E000418527 /* 92320-splash.json in Resources */,
 				4D10A44029C7039B00418527 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +226,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D10A43E29C7039900418527 /* ContentView.swift in Sources */,
+				4D10A43E29C7039900418527 /* SplashView.swift in Sources */,
+				4D10A45B29C7151A00418527 /* onBoardingItem.swift in Sources */,
+				4D10A46B29C7351100418527 /* MainButton.swift in Sources */,
+				4D10A45829C7110C00418527 /* onBoardingView.swift in Sources */,
+				4D10A46729C729F000418527 /* onBoardingViewModel.swift in Sources */,
+				4D10A46429C7281100418527 /* Colors.swift in Sources */,
 				4D10A43C29C7039900418527 /* SwiftUI_onBoardingApp.swift in Sources */,
+				4D10A45129C70BF400418527 /* LottieView+UIViewRepresentable.swift in Sources */,
+				4D10A45E29C7267900418527 /* onBoardingItemModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +371,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +401,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +437,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4D10A44929C7084F00418527 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D10A44A29C7085000418527 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D10A44929C7084F00418527 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4D10A43029C7039900418527 /* Project object */;
 }

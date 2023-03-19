@@ -11,7 +11,10 @@ import SwiftUI
 struct SwiftUI_onBoardingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                SplashView()
+            }
+            .environment(\.colorScheme, .light)
         }
     }
 }
