@@ -10,7 +10,6 @@ import SwiftUI
 struct SplashView: View {
     private let animationName = "92320-splash"
     @State private var isAnimationFinished: Bool = false
-
     var body: some View {
         if isAnimationFinished {
             onBoardingView()
